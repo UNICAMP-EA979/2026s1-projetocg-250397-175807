@@ -19,6 +19,7 @@ uniform sampler2D baseColorTexture;
 uniform sampler2D metallicTexture;
 uniform sampler2D roughnessTexture;
 uniform float tiling = 1.0;
+uniform vec3 cameraPosition;
 
 out vec4 FragColor;
 
@@ -30,7 +31,7 @@ void main()
     vec3 worldNormalNormalized = normalize(worldNormal);
 
     // Calcule a direção de visualização (saindo do ponto)
-    vec3 viewDirection = -normalize(worldPosition);
+    vec3 viewDirection = normalize(cameraPosition - worldPosition);
 
     // Calcule a uv com tiling
     vec2 uvTiling = uv * tiling;

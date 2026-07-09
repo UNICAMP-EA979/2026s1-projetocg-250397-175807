@@ -57,12 +57,14 @@ O projeto será avaliado segundo:
 
 Descreva a cena que implementaram:
 
-`Descrição`
-
-(Dica: para incluir imagens, utilize ![](Caminho da imagem))
+A ideia era implementar um bonequinho numa festa curtindo uma música disco enquanto tem um globo de espelhos girando em cima dele.
+Essa é uma forma de criar um sentimento escapista com o fim caótico do semestre, o qual já deveríamos estar curtindo as férias, mas
+a vida tinha outros planos.
+Tentamos deixar o chão parecido com a de uma balada, mas o piso não estava dando certo, por isso decidimos deixar esse chão de pedra,
+já que era o único que deu certo.
 
 ## Assets utilizados
 
 Para todo asset que tiver baixado da internet, coloque a referência dele (segundo eterminado por sua licensa):
 
-- `Nome do Asset`: `Licensa` (`Link`)
+- `Rock 035`: `CC0 1.0 Universal` (Domínio público)
