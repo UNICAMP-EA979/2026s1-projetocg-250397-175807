@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=24219804&assignment_repo_type=AssignmentRepo)
 # Projeto de CG - Cena
 
 Vamos utilizar o renderizador implementado nas tarefas anteriores para renderizar uma cena.
@@ -56,12 +57,14 @@ O projeto será avaliado segundo:
 
 Descreva a cena que implementaram:
 
-`Descrição`
-
-(Dica: para incluir imagens, utilize ![](Caminho da imagem))
+A ideia era implementar um bonequinho numa festa curtindo uma música disco enquanto tem um globo de espelhos girando em cima dele.
+Essa é uma forma de criar um sentimento escapista com o fim caótico do semestre, o qual já deveríamos estar curtindo as férias, mas
+a vida tinha outros planos.
+Tentamos deixar o chão parecido com a de uma balada, mas o piso não estava dando certo, por isso decidimos deixar esse chão de pedra,
+já que era o único que deu certo.
 
 ## Assets utilizados
 
 Para todo asset que tiver baixado da internet, coloque a referência dele (segundo eterminado por sua licensa):
 
-- `Nome do Asset`: `Licensa` (`Link`)
+- `Rock 035`: `CC0 1.0 Universal` (Domínio público)
