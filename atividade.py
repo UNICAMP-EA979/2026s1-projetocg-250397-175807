@@ -395,6 +395,48 @@ if __name__ == "__main__":
         floor_4.callbacks = [update_change_color]
         runtime.scene.add_child(floor_4)
 
+        floor_line_1 = Node(f"{side}_floor_line_1")
+        floor_line_1.translation = np.array([0.0, 0.0, -4.0])
+        floor_line_1.scale = np.array([12.0, 0.2, 0.5])
+        floor_line_1.render_data["mesh"] = cube_mesh
+        floor_line_1.render_data["material"] = black_material
+        runtime.scene.add_child(floor_line_1)
+
+        floor_line_2 = Node(f"{side}_floor_line_2")
+        floor_line_2.translation = np.array([0.0, 0.0, -4.0])
+        floor_line_2.scale = np.array([0.5, 0.2, 12.0])
+        floor_line_2.render_data["mesh"] = cube_mesh
+        floor_line_2.render_data["material"] = black_material
+        runtime.scene.add_child(floor_line_2)
+
+        floor_line_3 = Node(f"{side}_floor_line_3")
+        floor_line_3.translation = np.array([-6.0, 0.0, -4.0])
+        floor_line_3.scale = np.array([0.5, 0.2, 12.0])
+        floor_line_3.render_data["mesh"] = cube_mesh
+        floor_line_3.render_data["material"] = black_material
+        runtime.scene.add_child(floor_line_3)
+
+        floor_line_4 = Node(f"{side}_floor_line_4")
+        floor_line_4.translation = np.array([6.0, 0.0, -4.0])
+        floor_line_4.scale = np.array([0.5, 0.2, 12.0])
+        floor_line_4.render_data["mesh"] = cube_mesh
+        floor_line_4.render_data["material"] = black_material
+        runtime.scene.add_child(floor_line_4)
+
+        floor_line_5 = Node(f"{side}_floor_line_5")
+        floor_line_5.translation = np.array([0.0, 0.0, 2.0])
+        floor_line_5.scale = np.array([12.0, 0.2, 0.5])
+        floor_line_5.render_data["mesh"] = cube_mesh
+        floor_line_5.render_data["material"] = black_material
+        runtime.scene.add_child(floor_line_5)
+
+        floor_line_6 = Node(f"{side}_floor_line_6")
+        floor_line_6.translation = np.array([6.0, 0.0, -10.0])
+        floor_line_6.scale = np.array([12.0, 0.2, 0.5])
+        floor_line_6.render_data["mesh"] = cube_mesh
+        floor_line_6.render_data["material"] = black_material
+        runtime.scene.add_child(floor_line_6)
+
 
     # Câmera
     runtime.camera.translation = np.array([0.0, 1.8, 2.0], np.float64)
