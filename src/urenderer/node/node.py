@@ -28,6 +28,7 @@ class Node:
 
         self.render_data = {}
         self.callbacks: list[Callable[["Node", float, float], None]] = []
+        self.last_period = 0.0
 
         self._children: set[Node] = set()
         self._parent: Node | None = None
