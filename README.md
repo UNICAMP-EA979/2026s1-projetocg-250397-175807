@@ -57,14 +57,12 @@ O projeto será avaliado segundo:
 
 Descreva a cena que implementaram:
 
-A ideia era implementar um bonequinho numa festa curtindo uma música disco enquanto tem um globo de espelhos girando em cima dele.
+A ideia era implementar um bonequinho em uma festa curtindo uma música disco enquanto tem um globo de espelhos girando em cima dele.
 Essa é uma forma de criar um sentimento escapista com o fim caótico do semestre, o qual já deveríamos estar curtindo as férias, mas
-a vida tinha outros planos.
-Tentamos deixar o chão parecido com a de uma balada, mas o piso não estava dando certo, por isso decidimos deixar esse chão de pedra,
-já que era o único que deu certo.
+a vida tinha outros planos. O chão foi feito parecido com a de uma balada, criando quatro quadrantes individuais, onde cada um alterna de cor periodicamente. Enquanto isso, o personagem teve suas partes (braçoes, cabeça, pernas, ...) feitas separadamente uma da outra. Por fim, devido às partes do personagem serem nodes diferentes, isso resultou em criar duas updates de movimento diferentes, uma para mover as pernas e outra para mover os braços. 
 
 ## Assets utilizados
 
-Para todo asset que tiver baixado da internet, coloque a referência dele (segundo eterminado por sua licensa):
+Para todo asset que tiver baixado da internet, coloque a referência dele (segundo determinado por sua licença):
 
 - `Rock 035`: `CC0 1.0 Universal` (Domínio público)
